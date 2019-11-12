@@ -117,6 +117,7 @@ class Home extends React.Component {
             </div>
           </form>
         </div>
+        <div className="has-text-light has-text-centered footer">Made by DucanKir, 2019</div>
       </div>
     )
 
