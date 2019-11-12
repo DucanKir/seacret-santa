@@ -35,7 +35,7 @@ class App extends React.Component {
           <p className="subtitle is-6 has-text-light has-text-centered description">Для того, чтобы принять участие, заполните эту анекту, тогда ваш личный Дед Мороз будет знать, куда отправлять подарок! Все поля нужно обязательно заполнить.</p>
         </div>
         <div className="forms">
-          <form name="contact" method="post" action="/">
+          <form  data-netlify="true" name="contact" method="post" action="/">
             <input type="hidden" name="form-name" value="contact" />
             <div className="sect">
               <div className="inputField">
