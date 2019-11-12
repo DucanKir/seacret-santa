@@ -80,3 +80,38 @@ textarea {
   height: 50px !important;
   padding: 10px;
 }
+
+@media only screen and (orientation: portrait) {
+  .headers {
+    width: 90%;
+  }
+  .main-title {
+    font-size: 70px !important;
+  }
+  .forms {
+    width: 90%;
+  }
+  p {
+    font-size: 40px !important;
+  }
+  .lable {
+    font-size: 40px !important;
+  }
+  input[type=radio] {
+
+    transform: scale(5);
+    margin: 30px;
+  }
+
+  span {
+    font-size: 40px !important;
+  }
+  .button {
+    height: 150px !important;
+    width:500px !important;
+    font-size: 50px;
+  }
+  input {
+    height: 100px !important;
+  }
+}
