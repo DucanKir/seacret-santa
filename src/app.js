@@ -52,7 +52,7 @@ class App extends React.Component {
             <div className="sect">
               <div className="inputField">
                 <h1 className="subtitle is-6 has-text-light lable">Имя</h1>
-                <input className=" has-text-weight-bold input is-medium" type="text" name="имя" placeholder="Ваш ответ..." required/>
+                <input className=" has-text-weight-bold input is-medium" type="text" name="name" placeholder="Ваш ответ..." required/>
               </div>
               <div className="inputField">
                 <h1 className="subtitle is-6 has-text-light lable">Фамилия</h1>
@@ -64,7 +64,7 @@ class App extends React.Component {
               </div>
               <div className="inputField">
                 <h1 className="subtitle is-6 has-text-light lable">Страна</h1>
-                <input className=" has-text-weight-bold input is-medium" type="text" name="страна" placeholder="Ваш ответ..." required/>
+                <input className=" has-text-weight-bold input is-medium" type="text" name="country" placeholder="Ваш ответ..." required/>
               </div>
               <div className="inputField">
                 <h1 className="subtitle is-6 has-text-light lable">Область/район</h1>
