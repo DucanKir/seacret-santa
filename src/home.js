@@ -69,47 +69,13 @@ class Home extends React.Component {
                 <input type="radio" name="заграницу" value="нет" /> <span className="subtitle is-6 has-text-light">Нет</span>
               </div>
             </div>
-            <h1 className="title is-4 has-text-light lable has-text-centered">Расскжите немного о себе, чтобы ваш Дед Мороз смог выбрать подарок, подходящий именно вам</h1>
+            <h1 className="title is-4 has-text-light lable has-text-centered">Что бы вы хотели получить в подарок?</h1>
             <div className="sect">
               <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Расскажите о своих хобби</h1>
-                <textarea className=" has-text-weight-bold input is-medium" type="text" name="хобби" placeholder="Ваш ответ..." required/>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Чем вы любите заниматься в свободное время?</h1>
-                <textarea className=" has-text-weight-bold input is-medium" type="text" name="занятия" placeholder="Ваш ответ..." required/>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">У вас есть домашние животные?</h1>
-                <input type="radio" name="животные" value="да" required/> <span className="subtitle is-6 has-text-light">Да</span>  <br/>
-                <input type="radio" name="животные" value="нет" /> <span className="subtitle is-6 has-text-light">Нет</span>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Вы любите сладкое?</h1>
-                <input type="radio" name="сладкое" value="да" required/> <span className="subtitle is-6 has-text-light">Да</span>  <br/>
-                <input type="radio" name="сладкое" value="нет" /> <span className="subtitle is-6 has-text-light">Нет</span>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Есть ли у вас дети?</h1>
-                <input type="radio" name="дети" value="да" required/> <span className="subtitle is-6 has-text-light">Да</span>  <br/>
-                <input type="radio" name="дети" value="нет" /> <span className="subtitle is-6 has-text-light">Нет</span>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Какие книги вы предпочитаете?</h1>
-                <textarea className=" has-text-weight-bold input is-medium" type="text" name="книги" placeholder="Ваш ответ..." required/>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Какие фильмы вы любите смотреть?</h1>
-                <textarea className=" has-text-weight-bold input is-medium" type="text" name="фильмы" placeholder="Ваш ответ..." required/>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Вы хорошо себя вели в этом году?</h1>
-                <input type="radio" name="поведение" value="да" required/> <span className="subtitle is-6 has-text-light">Да</span> <br/>
-                <input type="radio" name="поведение" value="нет" /> <span className="subtitle is-6 has-text-light">Нет</span>
-              </div>
-              <div className="inputField">
-                <h1 className="subtitle is-6 has-text-light lable">Личное сообщение Деду Морозу (можете рассказать что-то еще о себе, что вам кажется важным или просто передать привет :)</h1>
-                <textarea className=" has-text-weight-bold input is-medium" type="text" name="сообщение" placeholder="Ваш ответ..." required/>
+                <input type="radio" name="тип" value="открытка" required/> <span className="subtitle is-6 has-text-light">Открытку</span>  <br/>
+                <input type="radio" name="тип" value="магнит" /> <span className="subtitle is-6 has-text-light">Магнитик</span> <br/>
+                <input type="radio" name="тип" value="сувенир" /> <span className="subtitle is-6 has-text-light">Сувенир</span> <br/>
+                <input type="radio" name="тип" value="сюрприз" /> <span className="subtitle is-6 has-text-light">Пусть это будет сюрприз!</span>
               </div>
             </div>
             <div className="submit">
